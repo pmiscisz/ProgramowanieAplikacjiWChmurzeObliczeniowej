@@ -17,7 +17,3 @@ docker ps
 # WIDOKSTRONY
 
 ![image](widokstrony.png)
-
-# WYNIK TESTU HEALTCHECK
-
-![image](image.png)
