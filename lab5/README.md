@@ -2,18 +2,18 @@
 ```
 docker build -f Dockerfile -t local/s2:1 . 
 ```
-![image](Dockerbuild.png)
+![image](screenshots\Dockerbuild.png)
 # RUN
 ```
 docker run --rm -d -p 8080:80 --name=s2 local/s2:1
 ```
-![image](Dockerrun.png)
+![image](screenshots\Dockerrun.png)
 # TEST
 ```
 docker ps
 ```
-![image](wyniktestuhealthcheck.png)
+![image](screenshots\wyniktestuhealthcheck.png)
 
 # WIDOKSTRONY
 
-![image](widokstrony.png)
+![image](screenshots\widokstrony.png)
