@@ -12,8 +12,8 @@ docker run -d -p 8080:80 --name lab5_container lab5
 ```
 docker ps
 ```
-![image](screenshots\wyniktestuhealthcheck.png)
+![image](screenshots/wyniktestuhealthcheck.png)
 
 # WIDOKSTRONY
 
-![image](screenshots\widokstrony.png)
+![image](screenshots/widokstrony.png)
