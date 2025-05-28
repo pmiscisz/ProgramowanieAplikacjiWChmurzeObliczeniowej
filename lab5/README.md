@@ -1,19 +1,19 @@
 # BUILD
 ```
-docker build --build-arg VERSION=2.5 -t lab5 .
+docker build -f Dockerfile -t local/s2:1 . 
 ```
 ![image](screenshots/Dockerbuild.png)
 # RUN
 ```
-docker run -d -p 8080:80 --name lab5_container lab5
+docker run --rm -d -p 8080:80 --name=s2 local/s2:1
 ```
-![image](screenshots/Dockerrun.png)
+![image](Dockerrun.png)
 # TEST
 ```
 docker ps
 ```
-![image](screenshots/wyniktestuhealthcheck.png)
+![image](wyniktestuhealthcheck.png)
 
 # WIDOKSTRONY
 
-![image](screenshots/widokstrony.png)
+![image](widokstrony.png)
