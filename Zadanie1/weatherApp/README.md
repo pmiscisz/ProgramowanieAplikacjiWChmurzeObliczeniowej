@@ -1,8 +1,4 @@
-# 🌤️ Weather App (Node.js + Docker)
 
-Aplikacja pogodowa stworzona w Node.js z wykorzystaniem Express i OpenWeatherMap API. Po uruchomieniu kontenera aplikacja loguje datę uruchomienia, imię i nazwisko autora oraz port TCP, na którym nasłuchuje.
-
----
 ### Link do storny z API
 
 https://openweathermap.org
